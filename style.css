@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 .google-sans-vossabes {
   font-family: "Google Sans", sans-serif;
   font-optical-sizing: auto;
@@ -5,4 +11,35 @@
   font-style: normal;
   font-variation-settings:
     "GRAD" 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #a202ff;
+    padding: 15px 40px;
+    color: rgb(5, 5, 5);
+}
+
+.logo {
+    background-color: #ab0beb;
+    padding: 10px 14px;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+.navlinks {
+    display: flex;
+    gap: 25px;
+}
+
+.navlinks a {
+    text-decoration: none;
+    color: rgb(255, 0, 0);
+    transition: 0.3s;
+}
+
+.navlinks a:hover {
+    color: #144d6e;
 }
