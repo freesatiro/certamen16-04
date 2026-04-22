@@ -392,7 +392,67 @@ td {
     align-items: center;
 }
 
+.footer-dark {
+    background-color: #0c0a1a;
+    color: white;
+    padding: 40px 10%;
+    margin-top: 0;
+}
 
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #25213b;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.footer-brand {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.logo-footer {
+    background-color: #a855f7;
+    color: black;
+    font-weight: bold;
+    padding: 8px 12px;
+    border-radius: 8px;
+}
+
+.footer-name {
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.footer-socials {
+    display: flex;
+    gap: 12px;
+}
+
+.social-btn {
+    border: 1px solid #3d375e;
+    color: #a855f7;
+    text-decoration: none;
+    padding: 8px 12px;
+    border-radius: 8px;
+    font-size: 0.8rem;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.social-btn:hover {
+    background-color: #a855f7;
+    color: white;
+}
+
+.footer-bottom {
+    text-align: center;
+    font-size: 0.8rem;
+    color: #666;
+}
 
 
 
