@@ -5,7 +5,7 @@
 }
 
 body {
-    font-family: "google Sans", sans-serif;
+    font-family: "Google Sans", sans-serif;
     font-optical-sizing: auto;
     font-weight: 555;
     font-style: normal;
@@ -17,7 +17,7 @@ body {
 
 header { 
     display: block;
-    background: linear-gradient(90deg, #5b0396, #500285);
+    background: linear-gradient(90deg, #6a04ad, #500285);
     width: 100%;
     margin: 0;
     padding: 10px 0;
@@ -105,7 +105,7 @@ main {
     align-items: flex-start;
 }
 
-article.caja-informacion {
+.caja-informacion {
     flex: 1.5;
     background-color: rgb(255, 255, 255);
     padding: 40px;
@@ -127,8 +127,8 @@ aside.caja-datos {
 blockquote {
     margin-top: 25px;
     padding: 20px;
-    background-color: #efd7f3;
-    border-left: 5px solid #530885;
+    background-color: #f2deff;
+    border-left: 5px solid #6700ac;
     font-style: italic;
     color: #000000;
     border-radius: 0 8px 8px 0;
@@ -213,3 +213,81 @@ td {
 .caja-habilidad li {
     margin-bottom: 12px;
 }
+
+/* --- DISEÑO DE TARJETAS PROYECTOS --- */
+.proyectos-grid {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 20px 0 60px 0;
+    flex-wrap: wrap;
+}
+
+.proyecto-card {
+    background: #ffffff;
+    border-radius: 12px;
+    width: 320px;
+    overflow: hidden;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.06);
+    border: 1px solid #eee;
+    transition: transform 0.3s ease;
+    display: flex;
+    flex-direction: column;
+}
+
+.proyecto-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0px 12px 30px rgba(80, 2, 133, 0.15);
+}
+
+.borde-superior-card {
+    height: 10px;
+    background: linear-gradient(90deg, #6a04ad, #500285); /* Tus colores morados */
+}
+
+.tag {
+    font-size: 0.7rem;
+    color: #6a04ad;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.card-content {
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    align-items: flex-start; 
+}
+
+.proyecto-card p {
+    flex-grow: 1;
+    font-size: 0.95rem;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.btn-card {
+    display: inline-block;
+    padding: 10px 18px;
+    background-color: #500285;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    font-size: 0.85rem;
+    font-weight: bold;
+}
+
+.proyectos-grid {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 20px 0 60px 0;
+    flex-wrap: wrap;
+}
+
+
+
+
+
+
