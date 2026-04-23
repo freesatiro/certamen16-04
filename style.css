@@ -468,7 +468,52 @@ td {
     color: #666;
 }
 
+@media (max-width: 768px) {
+    .logo img {
+        height: 35px !important;
+        width: auto;
+    }
 
+    .navbar {
+        flex-direction: column;
+        height: auto;
+        padding: 10px;
+        gap: 10px;
+    }
+
+    .nav-links {
+        gap: 15px;
+        font-size: 0.9rem;
+        justify-content: center;
+    }
+
+    .contacto-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contacto-form, 
+    .contacto-info {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .footer-top {
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .biografia-text h1 {
+        font-size: 1.8rem;
+    }
+
+    main {
+        padding: 10px;
+    }
+}
 
 
 
