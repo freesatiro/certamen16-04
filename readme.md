@@ -69,6 +69,6 @@ A continuación, les presentaré el diseño final del proyecto web, destacando l
 *Footer final con enlaces a redes sociales y derechos de autor.*
 
 
-## 👨‍💻 Autor
+## Autor
 **Martin Tomas Seguel**
 Estudiante de Ingeniería en Informática | INACAP Concepción-Talcahuano.
