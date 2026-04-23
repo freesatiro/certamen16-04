@@ -275,6 +275,19 @@ td {
     margin-bottom: 20px;
 }
 
+.proyecto-card figure {
+    margin: 0;
+    width: 100%;
+    overflow: hidden;
+}
+
+.proyecto-card figure img {
+    width: 100%;
+    height: 200px;  
+    object-fit: cover; 
+    display: block;
+}
+
 .btn-card {
     display: inline-block;
     padding: 10px 18px;
