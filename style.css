@@ -287,11 +287,10 @@ td {
 }
 
 .proyectos-grid {
-    display: flex;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
     gap: 30px;
     padding: 20px 0 60px 0;
-    flex-wrap: wrap;
 }
 
 .contacto-section {
