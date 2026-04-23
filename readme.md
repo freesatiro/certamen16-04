@@ -57,7 +57,7 @@ A continuación, les presentaré el diseño final del proyecto web, destacando l
 *Uso de listas y tarjetas para organizar la información técnica.*
 
 ### 4. Galería de Proyectos
-![Grid de proyectos](assets/Proyectos4.jpg)
+![Grid de proyectos](assets/4Proyectos.jpg.jpg)
 *Distribución de los trabajos realizados utilizando CSS Grid.*
 
 ### 5. Contacto
